@@ -15,6 +15,10 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    margin-bottom: 32px;
+}
+
 section {
     display: grid;
     grid-template-columns: repeat(4, 8rem);
@@ -49,4 +53,4 @@ section {
 
 .toggleCard {
     transform: rotateY(180deg);
-}
+}               
