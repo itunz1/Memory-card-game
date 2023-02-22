@@ -53,4 +53,21 @@ section {
 
 .toggleCard {
     transform: rotateY(180deg);
-}               
+}
+
+
+@media (max-width: 44em) {
+    section {
+        grid-template-columns: repeat(4, 6rem);
+        grid-template-rows: repeat(4, 6rem);
+    }
+}
+
+@media (max-width: 31em) {
+    
+    section {
+        grid-template-columns: repeat(4, 3rem);
+        grid-template-rows: repeat(4, 3rem);
+        gap: 2rem
+    }  
+}
